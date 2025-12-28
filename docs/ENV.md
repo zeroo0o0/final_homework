@@ -10,7 +10,7 @@
 - MySQL 8.0+
 
 ## 虚拟环境建议（Windows PowerShell）
-1. 创建：`python -m venv .venv`
+1. 创建：`py -3.12 -m venv .venv`
 2. 激活：`.\.venv\Scripts\activate`
 3. 安装后端依赖：`cd backend && pip install -r requirements.txt`
 4. 复制配置：`Copy-Item .env.example .env`（位于 `backend/` 下）并填写 MySQL 密码与密钥
